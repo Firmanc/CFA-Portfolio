@@ -1,2 +1,22 @@
-<h1>Pages#main</h1>
-<p>Find me in app/views/pages/main.html.erb</p>
+<%= render "partials/topnav" %>
+
+	
+<%= render "partials/nav" %>
+
+<main>
+	<section id="main-section" class="slides">
+		<%= render "start" %>
+	</section>
+	<section id="about-section" class="slides">
+		<%= render "about" %>
+	</section>
+	<section id="skills-section" class="slides">
+		<%= render "skills" %>
+	</section>
+	<div id="work-section" class="slides">
+		<%= render "work" %>
+	</div>
+	<div id="contact-section" class="slides">
+    <%= render "contact" %>
+	</div>
+</main>

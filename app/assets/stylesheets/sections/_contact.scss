@@ -1,0 +1,69 @@
+
+.contactContainer {
+	padding-top: 100px;
+}
+
+section button {
+//	background-color: red;
+}
+
+section form {
+	color: white;
+}
+
+#contactHeading h1 {
+	margin: 0 auto;
+  text-align: center;
+	padding-bottom: 60px;
+}
+
+
+form#contact {
+	margin: 0 auto;
+  text-align: center;
+  width: 300px;
+  padding: 20px;
+  background-color: #30CEFF;
+}
+
+.form-control {
+  box-shadow: none;
+  border-radius: 0;
+  background-color: #30CEFF;
+  outline: none;
+  border: none;
+}
+
+.form-control p {
+	color: white;
+}
+
+textarea#message {
+  min-height: 100px;
+  resize: vertical;
+  overflow: hidden;
+  border-bottom: 0px;
+	color: white;
+}
+
+button#send {
+
+  margin-top: 20px;
+  letter-spacing: 4px;
+}
+
+#formCon {
+	align-content: center;
+	align-items: center;
+}
+
+.formCol {
+	position: block;
+	align-items: center;
+	align-content: center;
+	margin: 0 auto;
+}
+
+.form-group {
+	color: white;
+}

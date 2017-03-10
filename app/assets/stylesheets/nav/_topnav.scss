@@ -1,0 +1,38 @@
+.navbar-default {
+	z-index: 1000;
+	background-color: transparent;
+	position: fixed;
+	width: 100%;
+	border: transparent;
+}
+
+.navbar-default li {
+	text-indent: 20px;
+}
+
+.navbar-default .navbar-nav > li > a {
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	text-decoration: none;
+	background-color:#30CEFF;
+	color: white;
+}
+.navbar-default .navbar-nav > li > a:active,
+.navbar-default .navbar-nav > li > a:focus {
+	text-decoration: none;
+	background-color: #30CEFF;
+	color: white;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 0px;
+  width: auto;
+}

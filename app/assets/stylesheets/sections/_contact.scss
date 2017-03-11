@@ -4,7 +4,7 @@
 }
 
 section button {
-//	background-color: red;
+	background-color: #30CEFF;
 }
 
 section form {
@@ -66,4 +66,14 @@ button#send {
 
 .form-group {
 	color: white;
+}
+
+.formBox {
+	position: relative;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	width: 100%;
+	width: 0 auto;
 }

@@ -1,14 +1,15 @@
 .workContainer {
 padding-left: 80px;
 padding-top: 100px;
-position: absolute;
 height: 100%;
 text-align: right;
 }
 
 .workBox {
 	width: 100%;
+	height: 100%;
 	padding-top: 100px;
+	text-align: center;
 }
 
 figure.workDisplay {
@@ -17,9 +18,8 @@ figure.workDisplay {
   float: left;
   overflow: hidden;
   margin: 10px 1%;
-	width: 280px;
+	width: 300px;
 	height: 200px;
-//  width: 50%;
   background: #000000;
 }
 figure.workDisplay * {
@@ -49,7 +49,7 @@ figure.workDisplay figcaption > div {
 figure.workDisplay figcaption::before {
   position: absolute;
   top: 50%;
-  right: 0;
+  right: 50px;
   left: 100%;
   height: 2px;
   content: '';
@@ -70,12 +70,11 @@ figure.workDisplay i {
   width: 50px;
   height: 38px;
   line-height: 160px;
-  text-align: left;
   position: relative;
   font-size: 28px;
   display: grid;
   bottom: 0;
-  background: #30CEFF;
+  background: transparent;
   -webkit-transform: translate3d(0%, 50%, 0);
   transform: translate3d(0%, 50%, 0);
   -webkit-transition-delay: 0s;
@@ -98,11 +97,11 @@ figure.workDisplay a {
   color: black;
 }
 figure.workDisplay.morning {
-  background: #30CEFF;
+  background: black;
 }
 figure.workDisplay:hover img,
 figure.workDisplay.hover img {
-  opacity: 0.2;
+  opacity: 0.1;
 }
 figure.workDisplay:hover figcaption i,
 figure.workDisplay.hover figcaption i,

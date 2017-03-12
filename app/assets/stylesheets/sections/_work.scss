@@ -117,3 +117,18 @@ figure.workDisplay.hover figcaption::before {
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
 }
+
+
+
+@media screen and (max-width: 767px) {
+	figure.workDisplay {
+		float: none;
+		width: 250px;
+		height: 150px;
+		justify-content: center;
+	}
+	
+	figure.workDisplay i {
+		line-height: 100px;
+	}
+}

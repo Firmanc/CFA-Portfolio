@@ -17,17 +17,15 @@
 	position: relative;
 }
 
-.about-container{
-	padding-top: 100px;
-	padding-left: 80px;
-	margin-bottom: 80px;
-}
-
-
 .socialBox {
-	margin: 20px 0 0 10px;
+	margin: 0 0 0 10px;
 	font-size: 30px;
 	text-align: center;
+}
+
+.socialBox img{
+	padding: 20px;
+	border-radius: 50%;
 }
 
 .socialBox i {
@@ -45,19 +43,9 @@
 	padding-left: 10px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 767px){
+	#about-section h1{
+		text-align: center;
+	}
+}
 

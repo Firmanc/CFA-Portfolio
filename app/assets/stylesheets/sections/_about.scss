@@ -26,16 +26,23 @@
 .socialBox img{
 	padding: 20px;
 	border-radius: 50%;
+	height:200px;
+	width:200px;
 }
 
 .socialBox i {
 	padding-right: 10px;
+	color: black;
 }
 
 #textAbout {
 	border-top-style: solid;
 	border-top-width: 20px;
 	border-top-color: #30CEFF;
+}
+
+.addPadding {
+	padding-top: 130px;
 }
 
 .dynamicTile {
@@ -47,5 +54,18 @@
 	#about-section h1{
 		text-align: center;
 	}
+	
+	.socialBox img{
+		height:190px;
+		width:190px;
+	}
+	
+	.addPadding {
+	padding-top: 40px;
+	}
 }
+
+
+
+
 

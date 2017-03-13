@@ -4,7 +4,7 @@ This is my first major project for Code Factory Acedemy. However, this will also
 
 ### How to access:
 
-You can view my website on https://cfaportfolio.herokuapp.com/. It is preferable to use google chrome for a better experience.
+You can view my website on https://firman-original.herokuapp.com/. It is preferable to use google chrome for a better experience.
 
 You can also download all the files from this repository and to access it you need to have ruby and also the rails framework installed. Afterward run the ruby on rails server from inside the folder. 
 

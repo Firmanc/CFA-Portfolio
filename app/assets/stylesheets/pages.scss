@@ -1,7 +1,7 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-@import  "nav/topnav","nav/nav", "sections/main", "sections/about", "sections/skills", "sections/work", "sections/contact";
+@import  "nav/topnav","nav/nav", "nav/footer", "sections/main", "sections/about", "sections/skills", "sections/work", "sections/contact";
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 
 @mixin bcg {
@@ -14,7 +14,6 @@
 	padding: 100px 0 50px 0;
 }
 body, html {
-	
 	background-color: white;
 	font-family: 'Lato', sans-serif;
 }
@@ -38,7 +37,8 @@ body, html {
 }
 #contact-section{
 	@include bcg;
-	background-color: darkgrey;
+	background-color: grey;
+	height: 93vh;
 }
 
 @media screen and (max-width: 767px) {
@@ -57,11 +57,11 @@ body, html {
 	display: flex;
 	height: 100%;
   }
-	 #contact-section {
+	#contact-section {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-color:grey;
+	background-color: grey;
 	display: flex;
 	height: 100%;
   }

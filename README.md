@@ -1,6 +1,6 @@
 # My First Portfolio
 
-This is my first major project for Code Factory Acedemy. However, this will also my first attempt on building a website. We have to used Ruby on Rails in conjunction with the HTML5 and CSS3. They only gave us just over a WEEK to build this portfolio and I'm quite satisfied how the website developed.
+This is my first major project for Code Factory Acedemy. However, this will also my first attempt on building a website. We have to used Ruby on Rails in conjunction with the HTML5 and CSS3. They only gave us just over a WEEK to build this portfolio and I'm quite satisfied how the website has developed.
 
 ### How to access:
 
@@ -14,9 +14,7 @@ $ rails s
  
 ### Technologies I used:
 
-My originally plan to use Bourbon, Neat and Bitter as a framework for this project, as it is simple, lightweight and highly used on the professional levels. However, I changed to bootstrap
-
-However, I changed to bootstrap due to the faster development and more responsive gridsystem. You can also find lots of documentation for bootstrap on google compared to other framework.
+My originally plan was to use Bourbon, Neat and Bitter as a framework for this project because its considered a simple, lightweight and highly used on the professional levels. However, I have changed to bootstrap due to the faster development and more responsive gridsystem. You can also find lots of documentation for bootstrap on google compared to other framework.
 
 Here's the rundown of technologies I've used for this project:
 * Ruby on Rails - Web application framework for the backend
@@ -26,32 +24,32 @@ Here's the rundown of technologies I've used for this project:
 * Git - Software version management
 * Heroku - For deploying my website
 
-Ruby on Rails Gems I've used for this project:
+Ruby on Rails gems I've used for this project:
 
 *  Bootstrap Saas - insert bootstrap with Saas framework
-*  Autoprefix - it automaticly add the necessary vendor prefixesused for easy converstion.
-*  Scrollspy - the only JavaScript I have used to a fancy scrolling
+*  Autoprefix - it automaticly add the necessary vendor prefixes used.
+*  Scrollspy - the only JavaScript I have used for a smooth scrolling effect.
 
  
 
 ### Design Process - proftfolio example
-My portfolio design is based on the templates below; however, I get few ideas from other different templates from Pinterest.
+My portfolio design is based on the templates below; additionally, I also got few ideas from other different templates from Pinterest.
 
 
 ![Imgur](http://i.imgur.com/f0Qg8RU.jpg)
 
 ### Design Process - Framework
 
-Below are some of the frameworks to show how I want my website to look likes. Some of the designs need to be change on the final design due to difficulties on implementing it or didn’t have enough time.
+Below are some of the frameworks to show how I want my website to look likes. Some of the designs was changed on the final design due to difficulties on implementing it or didn’t have enough time.
 
 ![D36e0b20fe8b1d35be6f4647f379d5d9f.png](https://www.dropbox.com/s/0tmyq7w4evy9vfw/D36e0b20fe8b1d35be6f4647f379d5d9f.png?dl=0&raw=1)
 ![work.png](https://www.dropbox.com/s/yz1m1t54vzjcs9o/work.png?dl=0&raw=1)
 
 ### Building Process - Laying out the frame
 
-My first focus was to side navigation which I still have problems with it right now. It still works like I wanted to be, but it doesn’t follow the current page. The start page was an easy process, since it is just a background pictures.
+My first focus was to build the side navigation which I still have problems with it right now. It still works like I wanted to be, but it doesn’t follow the current page. The top navigation was used for my logos and language buttons.
 
-My next processes were to make each page in one viewing high, so each page can be viewed when pressing each navigation. I used this configuration on main css file:
+My next processes were to make each page in one viewing hight, so each page can be fit on one screen when pressing each navigation. I used this configuration on the main css file for each section:
 
 ```sh
 height: 100vh;

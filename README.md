@@ -18,6 +18,8 @@ My originally plan was to use Bourbon, Neat and Bitter as a framework for this p
 
 Here's the rundown of technologies I've used for this project:
 
+| Name | Used For |
+| ------ | ------ |
 | Ruby on Rails | Web application framework for the backend |
 | Twitter Bootstrap | HTML5 and CSS3 Framework for the frontend |
 | jQuery | basic javascript effects |
@@ -27,6 +29,8 @@ Here's the rundown of technologies I've used for this project:
 
 Ruby on Rails gems I've used for this project:
 
+| Gems| Used For |
+| ------ | ------ |
 |  Bootstrap Saas | insert bootstrap with Saas framework |
 |  Autoprefix | it automaticly add the necessary vendor prefixes used |
 |  Scrollspy | the only JavaScript I have used for a smooth scrolling effect |

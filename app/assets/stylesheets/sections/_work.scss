@@ -61,12 +61,10 @@ figure.workDisplay p {
   width: 100%;
 }
 figure.workDisplay i {
-  width: 50px;
+  width: 100%;
   height: 38px;
   line-height: 160px;
-  position: relative;
   font-size: 28px;
-  display: grid;
   bottom: 0;
   background: transparent;
   -webkit-transform: translate3d(0%, 50%, 0);
@@ -127,7 +125,7 @@ figure.workDisplay.hover figcaption::before {
 		height: 150px;
 		justify-content: center;
 	}
-	
+
 	figure.workDisplay i {
 		line-height: 100px;
 	}

@@ -36,7 +36,11 @@
 .sidebar-nav li {
 	display: block;
 	transform: rotate(90deg);
-   line-height: 60px;
+  line-height: 60px;
+}
+
+.sidebar-nav button {
+  padding: 0;
 }
 
 .sidebar-nav li a {

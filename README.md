@@ -1,12 +1,12 @@
 # My First Portfolio
 
-This is my first major project for Code Factory Acedemy. However, this will also my first attempt on building a website. We have to use Ruby on Rails in conjunction with the HTML5 and CSS3. 
+This is my first major project for Code Factory Acedemy. However, this will also my first attempt on building a website. We have to use Ruby on Rails in conjunction with the HTML5 and CSS3.
 
 The reason of this website is to increase visibility of my self in a very competitive marketplace. Furthermore, this portfolio also makes sure the most current, professional, and accurate information about me is available for everyone to see.
 
 ### Where to view:
 
-You can view my website on https://firman-original.herokuapp.com/. It is preferable to use google chrome for a better experience.
+You can view my website on www.firmanc.com. It is preferable to use google chrome for a better experience.
 
 ### Project Goal
 
@@ -22,7 +22,6 @@ Here's the rundown of technologies I've used for this project:
 | ------ | ------ |
 | Ruby on Rails | Web application framework for the backend |
 | Twitter Bootstrap | HTML5 and CSS3 Framework for the frontend |
-| jQuery | basic javascript effects |
 | Brackets | Text editor |
 | Git | Software version management |
 | Heroku | For deploying my website |

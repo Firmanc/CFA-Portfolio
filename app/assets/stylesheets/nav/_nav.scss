@@ -24,6 +24,7 @@
 /* Sidebar Styles */
 
 .sidebar-nav {
+    font-family: "bronson-gothic-jf",sans-serif;
 		z-index: 1000;
 		position: absolute;
     bottom: 0;
@@ -45,7 +46,8 @@
 
 .sidebar-nav li a {
     text-decoration: none;
-    color: black;
+    color: #313239;
+    font-weight: 500;
     border-radius: 5px;
     padding: 3px;
 }

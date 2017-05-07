@@ -9,7 +9,7 @@
 figure.workDisplay {
   color: #fff;
   position: relative;
-  float: left;
+  display: inline-block;
   overflow: hidden;
   margin: 10px 1%;
 	width: 300px;
@@ -119,8 +119,12 @@ figure.workDisplay.hover figcaption::before {
 
 
 @media screen and (max-width: 767px) {
+	h1{
+		text-align: center;
+	}
+
 	figure.workDisplay {
-		float: none;
+		text-align: center;
 		width: 250px;
 		height: 150px;
 		justify-content: center;

@@ -5,7 +5,16 @@
 }
 
 .btn-default {
+	background-color: #313239;
+	border-color: #313239;
+	border-width: 2px;
+	margin-bottom: 10px;
+}
+
+.btn-default:hover{
 	background-color: #30CEFF;
+	text-decoration: none !important;
+	color: white;
 	border-color: #30CEFF;
 	border-width: 2px;
 }
@@ -32,7 +41,15 @@
 
 .socialBox i {
 	padding-right: 10px;
-	color: black;
+	color: #313239;
+}
+
+.socialBox i:hover {
+	color: #30CEFF;
+}
+
+.socialBox a {
+	text-decoration: none;
 }
 
 #textAbout {
@@ -55,18 +72,13 @@
 	#about-section h1{
 		text-align: center;
 	}
-	
+
 	.socialBox img{
 		height:190px;
 		width:190px;
 	}
-	
+
 	.addPadding {
 	padding-top: 40px;
 	}
 }
-
-
-
-
-

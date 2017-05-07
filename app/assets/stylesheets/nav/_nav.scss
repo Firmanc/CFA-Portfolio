@@ -47,6 +47,7 @@
 .sidebar-nav li a {
     text-decoration: none;
     color: #313239;
+    opacity: 0.8;
     font-weight: 500;
     border-radius: 5px;
     padding: 3px;
@@ -89,6 +90,7 @@
     margin-left: -15px;
     position: absolute;
     width: 30px;
+    opacity: 0.8;
 }
 
 @media(min-width:768px) {

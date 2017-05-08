@@ -37,3 +37,10 @@
   padding: 0px;
   width: auto;
 }
+
+@media (max-width: 767px) {
+    .navbar-toggle {
+      border: none;
+      outline: none;
+    }
+}

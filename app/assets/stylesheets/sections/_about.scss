@@ -11,11 +11,19 @@
 	margin-bottom: 10px;
 }
 
-.btn-default:hover{
+.btn-default:hover {
 	background-color: #30CEFF;
 	text-decoration: none !important;
 	color: white;
 	border-color: #30CEFF;
+	border-width: 2px;
+}
+
+.btn-default:active, .btn-default:focus {
+	background-color: #313239;
+	border-style: none;
+	color: white;
+	border-color: #313239;
 	border-width: 2px;
 }
 
@@ -44,7 +52,7 @@
 	color: #313239;
 }
 
-.socialBox i:hover {
+.socialBox i:hover{
 	color: #30CEFF;
 }
 

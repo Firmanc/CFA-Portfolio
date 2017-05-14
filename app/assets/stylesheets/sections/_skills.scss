@@ -6,21 +6,21 @@
 
 .skillBar {
 	width: 90%;
-  background-color: darkgrey;
+  background-color: grey;
 }
 
 .skills {
     text-align: right;
     padding-right: 20px;
-    line-height: 20px;
-    color: grey;
+    line-height: 14px;
+    color: #313239;
 }
 
-.frontEnd {width: 30%; background-color: White;}
+.frontEnd {width: 50%; background-color: White;}
 
-.backend {width: 40%; background-color: White;}
+.backend {width: 60%; background-color: White;}
 
-.others {width: 40%; background-color: White;}
+.others {width: 50%; background-color: White;}
 
 .skillBox {
 		float:left;
@@ -34,6 +34,10 @@
     height:100%;
     width:90%;
    	padding: 10% 5%;
+}
+
+.skillDesc {
+	width:90%;
 }
 
 .rs {

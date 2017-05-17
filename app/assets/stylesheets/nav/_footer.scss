@@ -2,7 +2,7 @@
 	padding-top: 1px;
 	background-color: grey;
 	text-align: center;
-	height: 54px;
+	height: 20%;
 }
 
 .footer i {
@@ -17,12 +17,12 @@
 
 .copyright {
 	opacity: 0.9;
-	margin: 0;
+	margin-top: 5px;
 }
 
 @media screen and (max-width: 767px){
 	.footer {
-		height: 68px;
+		height: 20%;
 	}
 
 	.copyright {
